@@ -1,3 +1,6 @@
+import * as BABYLON from "https://cdn.babylonjs.com/babylon.js";
+import * as BABYLON from "https://cdn.babylonjs.com/babylon.max.js";
+
 alert("Bienvenido a mi pagina web");
 console.log("inicializando...");
 
