@@ -10,9 +10,9 @@ document.body.appendChild( renderer.domElement );
 
 window.addEventListener('resize', ()=>{
     renderer.setSize( window.innerWidth, window.innerHeight );
-    camera.aspect = (window.innerWidth / window.innerHeight);
+    camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectMatrix();
-})
+});
 
 const geometry = new THREE.BoxGeometry();
 const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
