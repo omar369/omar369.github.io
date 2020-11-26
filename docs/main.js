@@ -1,5 +1,5 @@
 //app de three js
-console.log("commit 3 - primer cambio")
+console.log("commit 5 - primer cambio")
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
@@ -11,7 +11,7 @@ document.body.appendChild( renderer.domElement );
 window.addEventListener('resize', ()=>{
     renderer.setSize( window.innerWidth, window.innerHeight );
     camera.aspect = window.innerWidth / window.innerHeight;
-    camera.updateProjectMatrix();
+    camera.updateProjectionMatrix();
 });
 
 const geometry = new THREE.BoxGeometry();

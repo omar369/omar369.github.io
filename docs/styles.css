@@ -1,5 +1,10 @@
 body {
     margin: 0;
-    background-color: aqua;
+    height: 100vh;
+    background-color: rgb(70,80,80);
+}
+
+canvas {
+    display: block;
 }
 
